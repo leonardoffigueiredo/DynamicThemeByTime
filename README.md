@@ -1,0 +1,2 @@
+# DynamicThemeByTime
+ Este repositório contém um projeto web que altera dinamicamente a cor de fundo e a imagem exibida na página com base no horário do dia. O objetivo principal é criar uma experiência visualmente atraente e interativa para os usuários, ajustando o tema da página para corresponder ao período atual do dia — manhã, tarde, ou noite. A página exibe automaticamente uma mensagem de saudação personalizada, como "Bom dia", "Boa tarde" ou "Boa noite", dependendo da hora atual.
