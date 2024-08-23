@@ -10,19 +10,16 @@ function updateBackgroundAndTime() {
     let message = '';
 
     if (hours >= 6 && hours < 12) {
-        // Manhã
-        backgroundColor = '#FFD700'; // Amarelo claro
-        imageSrc = 'images/morning-time.png'; // Substitua pelo caminho da imagem do sol
+        backgroundColor = '#FFD700';
+        imageSrc = 'images/morning-time.png';
         message = 'Bom dia';
     } else if (hours >= 12 && hours < 18) {
-        // Tarde
-        backgroundColor = '#FF8C00'; // Laranja
-        imageSrc = 'images/afternoon-time.png'; // Substitua pelo caminho da imagem do dia
+        backgroundColor = '#FF8C00';
+        imageSrc = 'images/afternoon-time.png';
         message = 'Boa tarde';
     } else {
-        // Noite
-        backgroundColor = '#001f3f'; // Azul escuro
-        imageSrc = 'images/night-time.png'; // Substitua pelo caminho da imagem da lua
+        backgroundColor = '#001f3f';
+        imageSrc = 'images/night-time.png';
         message = 'Boa noite';
     }
 
@@ -32,8 +29,5 @@ function updateBackgroundAndTime() {
     messageElement.textContent = message;
 }
 
-// Atualiza o fundo e a hora a cada segundo
 setInterval(updateBackgroundAndTime, 1000);
-
-// Atualiza ao carregar a página
 updateBackgroundAndTime();
